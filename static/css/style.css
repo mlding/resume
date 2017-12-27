@@ -82,14 +82,18 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 12px;
 }
 
-
 hr {
     margin-bottom: 8px;
 }
 
+.right-list {
+    color: #666;
+    margin-bottom: 40px;
+}
+
 .info-unit {
     color: #666;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .remodal-img h3 {
@@ -168,7 +172,7 @@ strong {
 
 .me {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .weixin{
@@ -202,29 +206,22 @@ strong {
 
 
 .container {
-    position: relative;
-    margin: 0 auto;
-
-    width: 1050px;
-    height: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: white;
-
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .side {
-    position: absolute;
-    width: 380px;
-    height: 100%;
     background-color: whitesmoke;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px;
+    width: 380px;
 }
 
 .main {
-    
-    position: relative;;
-    margin-left: 380px;
-    min-height: 100%;
+    width: 700px;
     padding: 20px;
 
 }
